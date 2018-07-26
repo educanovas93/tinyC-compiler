@@ -1,0 +1,28 @@
+programa prueba ();
+var a,b,c,d,e,f: entero;
+comienzo
+	imprimir "Inicio del Programa\n";
+	a := 0;
+	b := 0 ;
+	c := 5+2-2;
+	d := 5+2;
+	e := 5*2;
+	f := 5;
+	si (a) entonces imprimir "a" , "\n"
+	si-no si (b) entonces imprimir "No a y b\n"
+		si-no mientras (c) hacer
+			comienzo
+				imprimir "c = ",c,"\n";
+				c := c-2+1;
+			fin;
+	desde a hasta d
+		imprimir "Prueba For" , "\n";
+
+	repetir
+		comienzo
+			imprimir "e = ",e," Prueba Do while\n";
+				f := f-1;
+				e := e+1;
+		fin
+	mientras (f);
+fin.

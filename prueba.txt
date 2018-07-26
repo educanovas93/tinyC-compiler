@@ -1,0 +1,10 @@
+programa prueba ();
+
+    var b,c: entero;
+
+comienzo
+	c := 0;
+	b := 5;
+	desde (c) hasta (b)
+		imprimir "Prueba For" , "\n";
+fin.

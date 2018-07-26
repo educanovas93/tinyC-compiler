@@ -1,0 +1,18 @@
+programa prueba ();
+var a,b,c,c: antero;
+comienzoo
+	imprimir "Inicio del Programa\n";
+	a := 0;
+	b := 0 ;
+	c := 5+2-2;
+	d := 4;
+	si (a) entoncewas imprimir "a" , "\n"
+	si-no si (b) entones imprimir "No a y b\n"
+		si-no mietras (c) hacer
+			comenzo
+				imprimir "c = ",c,"\n";
+				c := c-2+1;
+			fin;
+	impriir "Final" , "\n";
+	si (a) antonces imprmir "a";
+fin.
