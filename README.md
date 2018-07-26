@@ -8,7 +8,10 @@ Technologies used : C,Flex,bison.
 Testing project :
 
 bash$ make clean
+
 bash$ make run
+
 bash$ make run2
+
 bash$ make run3
 
